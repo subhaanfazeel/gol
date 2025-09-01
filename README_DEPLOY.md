@@ -1,0 +1,1 @@
+Run locally:\ncd backend\npython -m venv .venv\n.\.venv\Scripts\activate\npip install -r requirements.txt\nuvicorn main:app --reload\n

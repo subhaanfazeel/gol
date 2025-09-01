@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover, user-scalable=no">
+<title>SOLO SYSTEM</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<link rel="manifest" href="/static/manifest.json">
+<meta name="theme-color" content="#001a1f">
+<link rel="icon" href="/static/icon-192.png">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div id="splash" class="splash hidden">
+  <div class="splash-card">
+    <h1 class="splash-title glow">WELCOME</h1>
+    <p>Start Solo System</p>
+    <input id="startName" placeholder="Enter your name (optional)">
+    <div style="margin-top:12px">
+      <button onclick="startApp()">Start</button>
+    </div>
+  </div>
+</div>
+<header class="header">
+  <h1 class="logo glow">SOLO SYSTEM</h1>
+  <div id="greet" class="sub">Loading...</div>
+</header>
+<nav class="tabs">
+  <button onclick="show('main')">Main</button>
+  <button onclick="show('tasks')">Tasks</button>
+  <button onclick="show('nonneg')">Non-negotiables</button>
+  <button onclick="show('shop')">Shop</button>
+  <button onclick="show('diary')">Diary</button>
+  <button onclick="show('stats')">Stats</button>
+  <button onclick="show('settings')">Settings</button>
+</nav>
+<main id="mainView" class="view">
+  <section id="main" class="card">Loading...</section>
+  <section id="tasks" class="card hidden"></section>
+  <section id="nonneg" class="card hidden"></section>
+  <section id="shop" class="card hidden"></section>
+  <section id="diary" class="card hidden"></section>
+  <section id="stats" class="card hidden"></section>
+  <section id="settings" class="card hidden"></section>
+</main>
+
+<audio id="ping" src="/static/sounds/ping.mp3"></audio>
+<script src="/static/app.js" defer></script>
+<script src="/static/sw-register.js" defer></script>
+</body>
+</html>

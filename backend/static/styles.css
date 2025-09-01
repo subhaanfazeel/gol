@@ -1,0 +1,13 @@
+:root{--bg:#05060b;--cyan:#00f0ff;--muted:#66ffff33;--accent:#00ffff;--panel:#071218}
+*{box-sizing:border-box}
+body{margin:0;font-family:Orbitron,system-ui,-apple-system,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#030313, #071018);color:var(--cyan);-webkit-font-smoothing:antialiased}
+.header{padding:18px 16px;display:flex;align-items:center;justify-content:space-between}
+.logo{margin:0;font-size:22px;text-shadow:0 0 18px rgba(0,255,255,0.15)}
+.sub{color:#8ff7ff88}
+.tabs{display:flex;gap:8px;padding:8px 12px;overflow:auto}
+.card{margin:12px;padding:12px;border-radius:12px;background:linear-gradient(180deg, rgba(0,255,255,0.02), rgba(0,255,255,0.01));border:1px solid rgba(0,255,255,0.06)}
+button{background:transparent;border:1px solid var(--cyan);color:var(--cyan);padding:8px 12px;border-radius:10px}
+.hidden{display:none}
+.splash{position:fixed;inset:0;background:linear-gradient(90deg, rgba(0,0,0,0.85), rgba(0,0,0,0.95));display:flex;align-items:center;justify-content:center;z-index:999}
+.splash-card{background:var(--panel);padding:20px;border-radius:12px;border:1px solid rgba(0,255,255,0.08);text-align:center}
+.splash-title{font-size:28px;margin:0 0 8px 0}

@@ -1,0 +1,24 @@
+{
+  "tasks": [],
+  "punishments": [
+    "Cold shower 10m"
+  ],
+  "non_negotiables": [
+    "No phone in bed"
+  ],
+  "streak": 0,
+  "best_streak": 0,
+  "last_login": null,
+  "name": "",
+  "shop": {
+    "coins": 0,
+    "items": []
+  },
+  "diary": [],
+  "settings": {
+    "sounds": true
+  },
+  "stats": {
+    "tasks_completed": 0
+  }
+}
